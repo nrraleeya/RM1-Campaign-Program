@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+.iium-logo {
+    float: left;
+    margin-left: 28px;
+    font-size: 1.5em;
+    height: 30px;
+    letter-spacing: 1px;
+  } @media(max-width: 768px) {
+      .logo {
+         margin-left: 5px; 
+      }
+    }
+
+.topnav {
+    background-color: palevioletred;
+    overflow: hidden;
+}
+  
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color: whitesmoke;
+    color: gray;
+}
+  
+.topnav .icon {
+    display: none;
+}
+
+header {
+    background-image: url('background1.jpeg');
+    padding: 30px;
+    text-align: left;
+    font-size: 35px;
+    color: white;
+    font-style: italic;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 4px 4px;
+}
+
+.flex-item-left {
+    padding: 10px;
+    flex: 50%;
+  }
+  
+.flex-item-right {
+    padding: 10px;
+    flex: 50%;
+  }
+
+.quotes, .quranic, .form{
+    font-style: italic;
+    font-size: x-large;
+    text-align: center;
+    margin : auto;
+    border-radius: 25px;
+    background-color: pink;
+    padding : 5px;
+    width: 50%;
+}
+
+.quotes p2{
+    font: italic small-caps bold 16px/2 italic;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.form {
+    grid-row: inherit;
+    text-align: left;
+    padding : 2%;
+}
+
+.form h3{
+    text-align: center;
+}
+
+footer {
+    height:fit-content;
+    background-color: palevioletred;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+

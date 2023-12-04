@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="RM1Campaign.css">
+    <title>RM1 Campaign</title>
+    <div class="topnav">
+        <div class = "iium-logo">
+        <img
+            src = iiumLogo.png
+            alt="iium-logo"
+            width="90"
+            height="50" />
+        </div>
+        <a href="#Home">Home</a>
+        <a href="#Form">Form</a>
+        <a href="#Contacts">Contact Us</a>
+    </div>
+    </head>
+    <header>
+        <h2>RM 1 CAMPAIGN</h2>
+    </header>
+    <div class = "row">
+        <div class = "flex-item-left">
+        <div class = "quotes">
+            <p>Let your contributions be<br>
+            <p2>PERPETUAL</p2><br>
+            for the pleasure of Allah swt</p><br>
+       </div></div>
+       <div class="flex-item-right">
+        <img 
+            src = "bismillah.jpeg"
+            alt = "quranic-verse"
+            width = 500px
+            height = 500px>
+        </div>
+        <div class = "row">
+       <div class = "quranic">
+        <p>“The example of those who spend their wealth in the
+            way of Allah is like a seed [of grain] which grows seven
+            spikes; in each spike is a hundred grains. And Allah
+            multiplies [His reward] for whom He wills. And Allah is
+            all-Encompassing and Knowing.”</p>
+            <p>Al Baqarah:261</p>
+       </div>
+        </div>
+       
+    </div>
+    <div class = "row">
+    <div class = "flex-item-left">
+    <div class = "form" id = "Form">
+        <h3>RM1 Campaign</h3>
+        <p>PARTICIPATION IN RM1 CAMPAIGN - MONTHLY SALARY DEDUCTION</p><br>
+                    
+                    <form>
+                        <label for="name">Name </label><br>
+                        <input type="text" id="name" required>
+                        <br>
+                        <label for="staffNo">Staff No. </label><br>
+                        <input type="text" id="staffNo" required>
+                        <br>
+                        <label for="TBD">K/C/D/I/O </label><br>
+                        <input type="text" id="TBD" required>
+                        <br>
+                        <label for="contactNo">Contact No. </label><br>
+                        <input type="text" id="contactNo" required>
+                        <br>
+                        <label for="email">Email </label><br>
+                        <input type="email" id="email" required>
+                        <br>
+                        <label for="amountDeduct">Amount to be Deducted  RM </label>
+                        <input type="text" id="amountDeduct" required>
+                        <br><br>
+                        The above salary deduction will take effect from
+                        <select name="startMonth" id="startMonth">
+                        <option>Select month</option>
+                            <option value="jan">January</option>
+                            <option value="feb">February</option>
+                            <option value="march">March</option>
+                            <option value="april">April</option>
+                            <option value="may">May</option>
+                            <option value="june">June</option>
+                            <option value="july">July</option>
+                            <option value="aug">August</option>
+                            <option value="sep">September</option>
+                            <option value="oct">October</option>
+                            <option value="nov">November</option>
+                            <option value="dec">December</option>
+                        </select>
+                        <select name="startYear" id="startYear">
+                        <option>Select year</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                            <option value="2027">2027</option>
+                            <option value="2028">2028</option>
+                            <option value="2029">2029</option>
+                            <option value="2030">2030</option>
+                            <option value="2031">2031</option>
+                            <option value="2032">2032</option>
+                            <option value="2033">2033</option>
+                            <option value="2034">2034</option>
+                        </select>
+                        until
+                        <select name="endMonth" id="endMonth">
+                        <option>Select month</option>
+                            <option value="jan">January</option>
+                            <option value="feb">February</option>
+                            <option value="march">March</option>
+                            <option value="april">April</option>
+                            <option value="may">May</option>
+                            <option value="june">June</option>
+                            <option value="july">July</option>
+                            <option value="aug">August</option>
+                            <option value="sep">September</option>
+                            <option value="oct">October</option>
+                            <option value="nov">November</option>
+                            <option value="dec">December</option>
+                        </select>
+                        <select name="endYear" id="endYear">
+                        <option>Select year</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                            <option value="2027">2027</option>
+                            <option value="2028">2028</option>
+                            <option value="2029">2029</option>
+                            <option value="2030">2030</option>
+                            <option value="2031">2031</option>
+                            <option value="2032">2032</option>
+                            <option value="2033">2033</option>
+                            <option value="2034">2034</option>
+                        </select>
+                            or further notice.<br><br>
+                    </form>
+                    <button onclick="submitForm()">Submit</button>
+                    
+                    <script>
+                        function submitForm() {
+                            alert("Form has been submitted. Thank you.");
+                        }
+                    </script>
+                    </div>
+    </div></div>
+    <div class = "flex-item-right">
+        <div class = "form" id = "Form">
+            <h3>RM1 Campaign - Kuliyyah Based</h3>
+            <p>PARTICIPATION IN RM1 CAMPAIGN - MONTHLY SALARY DEDUCTION</p><br>
+                        
+                        <form>
+                            <label for="name">Name </label><br>
+                            <input type="text" id="name" required>
+                            <br>
+                            <label for="staffNo">Staff No. </label><br>
+                            <input type="text" id="staffNo" required>
+                            <br>
+                            <label for="TBD">K/C/D/I/O </label><br>
+                            <input type="text" id="TBD" required>
+                            <br>
+                            <label for="contactNo">Contact No. </label><br>
+                            <input type="text" id="contactNo" required>
+                            <br>
+                            <label for="email">Email </label><br>
+                            <input type="email" id="email" required>
+                            <br>
+                            <label for="amountDeduct">Amount to be Deducted  RM </label>
+                            <input type="text" id="amountDeduct" required>
+                            <br><br>
+                            The above salary deduction will take effect from
+                            <select name="startMonth" id="startMonth">
+                            <option>Select month</option>
+                                <option value="jan">January</option>
+                                <option value="feb">February</option>
+                                <option value="march">March</option>
+                                <option value="april">April</option>
+                                <option value="may">May</option>
+                                <option value="june">June</option>
+                                <option value="july">July</option>
+                                <option value="aug">August</option>
+                                <option value="sep">September</option>
+                                <option value="oct">October</option>
+                                <option value="nov">November</option>
+                                <option value="dec">December</option>
+                            </select>
+                            <select name="startYear" id="startYear">
+                            <option>Select year</option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                                <option value="2025">2025</option>
+                                <option value="2026">2026</option>
+                                <option value="2027">2027</option>
+                                <option value="2028">2028</option>
+                                <option value="2029">2029</option>
+                                <option value="2030">2030</option>
+                                <option value="2031">2031</option>
+                                <option value="2032">2032</option>
+                                <option value="2033">2033</option>
+                                <option value="2034">2034</option>
+                            </select>
+                            until
+                            <select name="endMonth" id="endMonth">
+                            <option>Select month</option>
+                                <option value="jan">January</option>
+                                <option value="feb">February</option>
+                                <option value="march">March</option>
+                                <option value="april">April</option>
+                                <option value="may">May</option>
+                                <option value="june">June</option>
+                                <option value="july">July</option>
+                                <option value="aug">August</option>
+                                <option value="sep">September</option>
+                                <option value="oct">October</option>
+                                <option value="nov">November</option>
+                                <option value="dec">December</option>
+                            </select>
+                            <select name="endYear" id="endYear">
+                            <option>Select year</option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                                <option value="2025">2025</option>
+                                <option value="2026">2026</option>
+                                <option value="2027">2027</option>
+                                <option value="2028">2028</option>
+                                <option value="2029">2029</option>
+                                <option value="2030">2030</option>
+                                <option value="2031">2031</option>
+                                <option value="2032">2032</option>
+                                <option value="2033">2033</option>
+                                <option value="2034">2034</option>
+                            </select>
+                                or further notice.<br><br>
+                            <label for="kuliyyah"> For Kuliyyah of </label>
+                            <select name="kuliyyah" id="kuliyyah">
+                                <option>Select kuliyyah</option>
+                                    <option value="KICT">Information Communication Technology</option>
+                                    <option value="KOE">Engineering</option>
+                                    <option value="KIRKHS">Islamic Revealed Knowledge & Human Science</option>
+                                    <option value="KOED">Education</option>
+                                    <option value="KAED">Architecture & Environmental Design</option>
+                                    <option value="KENMS">Economics & Management Sciences</option>
+                                    <option value="AIKOL">Law</option>
+                                    <option value="KOM">Kuliyyah of Medicine</option>
+                                    <option value="KOP">Pharmacy</option>
+                                    <option value="KAHS">Allied Health Sciences</option>
+                                    <option value="KLM">Language Management</option>
+                                    <option value="KOD">Dentistry</option>
+                                    <option value="KON">Nursing</option>
+                            </select>
+                        </form>
+                        <button onclick="submitForm()">Submit</button>
+                        
+                        <script>
+                            function submitForm() {
+                                alert("Form has been submitted. Thank you.");
+                            }
+                        </script>
+                        </div>
+        </div>
+</div>
+
+<footer>
+    <h3 id = "Contacts">Contact Us</h3>
+    <p>IIUM ENDOWMENT FUND</p>
+    <p>Level 3, Rectory <br>International Islamic University Malaysia <br>P.O Box 10 <br>50728 Kuala Lumpur</p>
+    <p>Tel: 03 6196 4268 <br>Email: ief@iium.edu.my <br>Website: www.iium.edu.my/ief <br>Facebook: www.facebook.com/ief.official/</p>
+</footer>
+</html>
