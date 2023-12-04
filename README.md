@@ -2,7 +2,7 @@
 Name : NUR ALEEYA BINTI ZULAINI
 Matrics Number : 2214332
 
-This project features a dynamic user interaction powered by JavaScript's onclick event handler, enhancing the functionality of our one-page website. Users trigger the alert message by clicking the "submit" button on the form, providing an intuitive and responsive user experience.
+This project features a dynamic user interaction powered by JavaScript's onclick event handler, enhancing the functionality of my one-page website. Users trigger the alert message by clicking the "submit" button on the form, providing an intuitive and responsive user experience.
 
 References : 
 1. CSS Flexbox Responsive. (n.d.). https://www.w3schools.com/css/css3_flexbox_responsive.asp
